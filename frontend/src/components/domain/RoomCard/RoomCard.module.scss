@@ -1,0 +1,61 @@
+.card {
+  height: 100%;
+}
+
+.body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1rem;
+}
+
+.card h3 {
+  margin-top: 0.1rem;
+  font-size: 0.98rem;
+}
+
+.hotel {
+  margin: 0 0 0.15rem;
+  color: var(--color-ink);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  align-items: flex-start;
+}
+
+.meta {
+  color: var(--color-ink-muted);
+  font-size: 0.8rem;
+}
+
+.description {
+  min-height: 2.6em;
+  color: var(--color-ink);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  min-height: 1.75rem;
+}
+
+.actions {
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+
+.actions button {
+  width: 100%;
+}

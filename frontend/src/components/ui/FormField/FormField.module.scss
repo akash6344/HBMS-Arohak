@@ -1,0 +1,23 @@
+.field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.label {
+  color: var(--color-ink);
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+
+.hint,
+.error {
+  font-size: 0.75rem;
+}
+
+.hint {
+  color: var(--color-ink-subtle);
+}
+
+.error {
+  color: var(--color-danger);
+}
